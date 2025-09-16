@@ -153,7 +153,7 @@ func TestEmptyChain(t *testing.T) {
 	chain := NewChainBuilder[int]().Build()
 
 	if chain != nil {
-		t.Error("空构建器应��返回 nil")
+		t.Error("空构建器应该返回 nil")
 	}
 }
 
